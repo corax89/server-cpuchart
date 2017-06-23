@@ -1,0 +1,26 @@
+.chart {
+    background: linear-gradient( #95a5a6, transparent 1px), linear-gradient( 90deg, #95a5a6, transparent 1px);
+    background-size: 15px 15px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#cpu, #memory {
+    width:95%;
+    height:150px;
+    border:solid 1px #3498db;
+    margin: 1em;
+    position: relative;
+    margin: auto;
+}
+
+#error {
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    color: #FFF;
+    background-color: #E00;
+    position: fixed;
+    top:0;
+}
